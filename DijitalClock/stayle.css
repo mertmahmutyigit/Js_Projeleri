@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Saat container */
+.clock-container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(0, 255, 200, 0.6);
+}
+
+/* Başlık */
+.clock-container h2 {
+    font-size: 28px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    color: #00ffc8;
+    text-shadow: 0 0 10px #00ffc8;
+}
+
+/* Saat kutusu */
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Her bir parça */
+.clock .item {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 200, 0.5);
+    min-width: 80px;
+}
+
+.clock .item p {
+    font-size: 48px;
+    margin: 0;
+    color: #00ffc8;
+    text-shadow: 0 0 15px #00ffc8, 0 0 25px #00ffc8;
+}
+
+/* Tarih */
+.date p {
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffcc70;
+    text-shadow: 0 0 8px #ffcc70;
+}

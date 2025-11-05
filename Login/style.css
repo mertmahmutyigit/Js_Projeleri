@@ -1,0 +1,76 @@
+body{
+    
+    display:flex;
+      justify-content:center; /* yatay ortala */
+      align-items:center;     /* dikey ortala */
+        
+    background-image: url("image.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+}
+
+.app{
+margin-top: 30px;
+justify-self:center;
+
+width: 500px;
+
+}
+.header{
+margin-bottom: 30px;
+color: rgba(6, 62, 66, 1); ;
+}
+
+.input{
+    display: block;
+    font-size: 30px;
+}
+.input li input{
+    font-size: 25px;
+     padding: 10px 10px; 
+    font-style: oblique;
+    background: transparent;
+    border: 2px solid rgba(6, 62, 66, 0.445); 
+    border-radius: 10px;
+    color: wheat;
+    
+}
+.input li button{
+       font-size: 25px;
+    font-style: oblique;
+    background: transparent;
+    border: 2px solid rgba(6, 62, 66, 0.445); 
+    border-radius: 10px;
+    color: wheat;
+    cursor: pointer;
+    
+}
+.input ul {
+  list-style-type: none; 
+  padding: 0;   /* sola yaslamayı düzeltir */
+  margin: 0;
+}
+#uyari {
+    position: absolute; /* veya fixed */
+    top: 20px;          /* sayfanın üstünden mesafe */
+    left: 50%;          /* yatayda ortala */
+    transform: translateX(-50%);
+    
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+    
+    opacity: 0;              /* başlangıçta görünmez */
+    transition: opacity 1s;
+    z-index: 1000;    
+}
+
+#uyari.gorunur {
+    opacity: 1;
+    
+}
+

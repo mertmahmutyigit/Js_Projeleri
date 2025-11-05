@@ -1,0 +1,42 @@
+.uyg{
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+.button{
+    margin: 25PX;
+    #on{
+
+        font-size: x-large;
+        margin: 10px;
+        height: 80px;
+        width: 90px;
+        border-radius: 10px;
+        cursor: pointer;
+        
+        &:hover{
+        background-color: khaki;
+    }
+    }
+    #of{
+        
+        font-size: x-large;
+        margin: 10px;
+        height: 80px;
+        width: 90px;
+        border-radius: 10px;
+        cursor: pointer;
+        &:hover{
+        background-color: khaki;
+    }
+    }
+    
+}
+.img img {
+    width: 650px;   /* istediğin boyut */
+    height: auto;   /* orantılı küçülür */
+}
+
